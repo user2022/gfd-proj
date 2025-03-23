@@ -1,10 +1,13 @@
 <script setup lang="ts">
-
+import OurStorySection from '@/components/home/OurStorySection.vue'
 </script>
 
 <template>
   <main>
-    <h1 class="text-green-500 text-xl">Test</h1>
-
+    <OurStorySection />
   </main>
 </template>
+
+<style scoped>
+
+</style>

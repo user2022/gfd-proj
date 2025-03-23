@@ -1,10 +1,13 @@
-<script setup lang="ts">
-import { RouterLink, RouterView } from 'vue-router'
+<script lang="ts" setup>
+import { RouterView } from 'vue-router'
 </script>
 
 <template>
-  <RouterView />
+  <main class="flex flex-col h-screen">
+    <div class="flex-grow">
+      <RouterView />
+    </div>
+  </main>
 </template>
 
-<style scoped>
-</style>
+<style scoped></style>
