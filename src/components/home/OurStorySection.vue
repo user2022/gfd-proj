@@ -8,7 +8,7 @@ const { isMobile } = useScreenSize()
 <template>
   <div>
     <template v-if="isMobile">
-      <div class="relative w-full overflow-x-hidden h-screen">
+      <div class="relative w-full min-h-[1600px]">
         <div class="bg-black w-full h-[600px] absolute top-72"></div>
         <img
           alt="home-bg"
