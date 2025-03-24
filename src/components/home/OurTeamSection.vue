@@ -42,6 +42,12 @@ const members: Member[] = [
     name: 'Benjamin Scott',
     description: 'Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit.',
   },
+  {
+    title: 'IT Security',
+    img: 'g1.png',
+    name: 'Emma Richardson',
+    description: 'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.',
+  },
 ]
 
 const selectedMember = ref<SelectedMember | undefined>()
